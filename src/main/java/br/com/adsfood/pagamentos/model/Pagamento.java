@@ -31,6 +31,7 @@ public class Pagamento {
     @Size(max = 19, message = "Maximo de caracteres é de 19")
     private String numero;
 
+     //  vamos
     @NotBlank
     @Size(max = 7, message = "Maximo de caracteres é de 7")
     private String expiracao;
